@@ -1,0 +1,190 @@
+*{
+         margin : 0;
+}
+.clear{
+	clear:both;
+}
+/* start header */
+.header{
+	 width:100%;
+	 background-color:#ff9833;
+	 padding: 10px 0;
+}
+.header-content{
+	width:80%;
+	margin:0 auto;
+	
+}
+
+.header-content i,.header-content span{
+	color:white;
+	margin-right:10px;
+}
+/* end header */
+
+/* start Navigation */
+.navi{
+	width:100%;
+}
+.navi-content{
+	width:80%;
+	margin:0 auto;
+ }
+ 
+ .icon-homepage, .list-menu, .SNS{
+	 margin-top:10px;
+	 float:left;
+}
+.list-menu ul{
+	margin-top: 20px;
+	list-style-type:none;
+}
+.list-menu ul li{
+	
+	float:left;
+	padding-right:20px;}
+
+.list-menu ul li a{ 
+	color: black;
+	text-decoration:none;
+	font-weight:bold;
+}
+.list-menu ul li.active a{ 
+	color:#d87e1b;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/* End Navigation */
+
+/* start social */
+.sns{ 
+	margin-top: 15px;
+	margin-right:15px;
+	color:white;
+	float:left;
+	padding-right:2px;
+	width:1.8rem;
+	height:1.8rem;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+}
+.fa{
+	padding-left:10px;
+	padding-top:7px;} 
+.fb{
+	background-color:blue;}
+.wt{
+	background-color:pink;}
+.gg{
+	background-color:rgba(235,26,29,1.00);}
+/* End social */
+
+/* Start Slider */
+.slider{ 
+	width:100%;
+	height:650px;
+	background-image:url(../images/house.jpg);
+}
+.slider-text{
+	color:white;
+	text-align:center;
+	padding-top:25%;}
+.slider-social{
+	padding-top:10px;
+	color:red;
+	text-align:center;}	
+/* End Slider */
+
+/* Start About Us */
+.aboutus_100{
+	width:100%;
+}
+.aboutus_80{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:20px;
+}
+.about_content h1{
+	font-size:40px;
+	margin-bottom:5px;
+}
+
+.about_content span{
+	color:rgba(230,139,38,1.00);
+	letter-spacing:5px;
+	
+}
+.about_content p{
+	margin-top:10px;
+	font-weight:bold;
+	padding-left:30px;
+	line-height:25px;
+	padding-top:20px;
+}
+.about_icon{
+	width:100%;
+	margin-top:30px;
+	}
+.icon{
+	width:25%;
+	float:left;
+	text-align:center;
+	}	
+.fa{
+	font-size:30px;
+	}
+.fa-home{
+	color:#ea9676;}
+	
+.fa-align-justify, .fa-bookmark-o, .fa-building{
+	color:#0000ff;}	
+.about_icon h2{
+	color:#ea9676;
+	margin-top:10px;
+	}
+	
+.about_icon p{
+	padding:10px;
+	}	
+/* End About Us */
+
+/*Start Home*/
+.home{
+	width:100%;
+	height:450px;
+	background-color:blue;}
+.home-img{
+	width:65%;
+	float:left;
+	}
+.home-img img{
+	max-width:100%;
+	height:100%;
+}
+.home-intro{
+	float:left;
+	width:30%;
+	padding-left:40px;
+	margin-top:20px;
+}
+.home-intro h1{
+	color:white;
+	font-weight:bold;
+	}
+.home-intro p{
+	margin-top:20px;
+	line-height:20px;
+	}
+
+.bed, .area, .parking, .kitchen{
+	color:white;
+	}
+
+/*End Home*/
+
+
