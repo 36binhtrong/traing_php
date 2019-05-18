@@ -70,7 +70,7 @@
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
 	-o-border-radius:50%;
-	-ms-border-radius:50%;
+	-ms-border-radius:50%; 
 }
 .fa{
 	padding-left:10px;
@@ -186,5 +186,58 @@
 	}
 
 /*End Home*/
+
+/*Start Ourteam*/
+.full_ourteam{
+	width:100%;
+}
+.content_ourteam{
+		width:80%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:20px;
+	}
+
+/*dienvien*/
+.dienvien .sub{
+	margin-top:50px;
+	 width:33%;
+	 float:left;
+	}
+
+	
+	.dienvien img{
+		max-width:100%;
+		max-height:100%;
+		border:1px solid white;
+		border-radius:50%;
+		-webkit-border-radius:50%;
+		-moz-border-radius:50%;
+		-o-border-radius:50%;
+		-ms-border-radius:50%;
+		
+	}
+
+.line{
+	background-color:black;
+	width:80%;
+	margin:0 auto;
+	height:3px;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+.text_ourteam p{
+	margin-top:10px;
+	letter-spacing:5px;
+	color:rgba(247,206,98,1.00);}
+	
+.dienvien p{
+	color:rgba(249,173,8,1.00);
+	margin:10px;
+	}	
+.dienvien span{
+	color:rgba(146,146,146,1.00);
+		}
+/*End Ourteam*/
 
 
